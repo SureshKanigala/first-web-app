@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-section{
+    background: url('books.jpg');
+    height: 100vh;
+}
+.first{
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    margin: 20px;
+}
+.first img{
+    width: 52px;
+    height: 52px;
+    /* border:2px solid green; */
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.navbar{
+    margin-left: 20px;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+.navbar li a{
+    
+}
+.second{
+    /* border: 2px solid green; */
+    width: 50%;
+    margin: 20px;
+}
+.second input{
+    position: absolute;
+    right: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.second button{
+    position: absolute;
+    right: 0px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.container{
+    display: flex;
+    background-color: rgb(60, 58, 58);
+    height: 70px;
+    border: 2px solid red;
+    position: sticky;
+}
+
+.booksbg{
+    
+    width: 100vw;
+    height: 100vh;
+}
+.first-section{
+    color: white;
+    width: 80%;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+
+}
+.first-section img,.second-section img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    margin: 0px 20px;
+}
+.second-section{
+    color: white;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+}
+.intro{
+    position: relative;
+    left: 150px;
+    top: 40px;
+    color: white;
+}
+
+.second-main-section{
+    background: rgb(50, 48, 48,0.8);
+    color: white;
+    /* width: 70%;
+margin: auto;
+border: 2px solid red;
+align-items: center;
+justify-content: center; */
+    
+}
+.form-class{
+width: 70%;
+margin: auto;
+border: 2px solid red;
+align-items: center;
+justify-content: center;
+}
+
+.form-class input{
+  
+    padding: 10px;
+    margin: 10px 20px;
+    width: 80%;
+}
+.btn-class{
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    /* text-align: center;
+border: 7px solid red;
+width: 300px;
+height: 200px;
+padding-top: 100px; */
+
+}
+button{
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.contact{
+    text-align: center;
+}
